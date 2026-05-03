@@ -76,16 +76,40 @@
 #let two-cols(left, right) = grid(
   columns: (1fr, 1fr),
   gutter: 0.28in,
-  [#left],
-  [#right],
+  [#left], [#right],
 )
 
 #let three-cols(a, b, c) = grid(
   columns: (1fr, 1fr, 1fr),
   gutter: 0.22in,
-  [#a],
-  [#b],
-  [#c],
+  [#a], [#b], [#c],
 )
 
 #let quote-line(body) = text(size: 20pt, weight: "bold", fill: accent-2)[#body]
+
+#let progressive-row(body, hidden: false) = grid(
+  columns: (0.9em, 1fr),
+  gutter: 0.05em,
+  [#if not hidden [•]], [#if hidden { hide(body) } else { body }],
+)
+
+#let progressive-slide(title, items, kicker: none) = {
+  for visible in range(0, items.len() + 1) {
+    slide(
+      title,
+      [
+        #card([
+          #stack(
+            spacing: 0.6em,
+            ..items
+              .enumerate()
+              .map(((index, item)) => {
+                progressive-row(item, hidden: index >= visible)
+              }),
+          )
+        ])
+      ],
+      kicker: kicker,
+    )
+  }
+}
