@@ -426,6 +426,33 @@
   )
 
   #slide(
+    [Маленькие шаги],
+    [
+      #three-cols(
+        [#card(
+          [#text(size: 20pt, weight: "bold", fill: red)[RED]
+            #v(0.12in)
+            Сначала пишем падающий тест.],
+          fill-color: panel-soft,
+        )],
+        [#card(
+          [#text(size: 20pt, weight: "bold", fill: green)[GREEN]
+            #v(0.12in)
+            Дальше делаем его зелёным так быстро, как можем.],
+          fill-color: panel-soft,
+        )],
+        [#card(
+          [#text(size: 20pt, weight: "bold", fill: yellow)[REFACTOR]
+            #v(0.12in)
+            Потом чистим дизайн под страховкой тестов.],
+          fill-color: panel-soft,
+        )],
+      )
+    ],
+    kicker: [Миф: TDD — значит написать все тесты сразу],
+  )
+
+  #slide(
     [Эх раз, ещё раз...],
     [
       #card([
