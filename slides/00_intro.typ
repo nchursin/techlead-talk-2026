@@ -1,3 +1,5 @@
+#import "../theme.typ": *
+
 #hero(
   [Разрушители мифов: TDD],
   [Что такое TDD на самом деле и зачем оно в 2к26],
@@ -19,7 +21,7 @@
             stroke: accent,
           )[
             #image(
-              "assets/me.jpg",
+              "../assets/me.jpg",
               width: 100%,
               height: 100%,
               fit: "cover",
