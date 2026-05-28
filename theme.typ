@@ -60,6 +60,21 @@
   #pagebreak(weak: true)
 ]
 
+#let cheatsheet(title, body) = [
+  #bar(yellow)
+  #v(0.22in)
+  #label-chip([Шпаргалка], fill-color: panel-soft, text-color: yellow)
+  #v(0.15in)
+  #text(size: 25pt, weight: "bold", fill: yellow)[#title]
+  #v(0.22in)
+  #body
+  #v(1fr)
+  #align(right)[
+    #text(size: 12pt, fill: text-soft)[#context counter(page).display()]
+  ]
+  #pagebreak(weak: true)
+]
+
 #let hero(title, subtitle, meta: none) = [
   #bar(accent-2, width: 2.8in)
   #v(0.5in)
