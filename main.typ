@@ -250,24 +250,6 @@
   #include "slides/20_llm.typ"
   #include "slides/25_silver_bullet.typ"
 
-  #cheatsheet(
-    [Как делать TDD],
-    [
-      #card([
-        #text(size: 20pt)[
-          1. Составь список примеров, с которых планируешь начать
-          2. Начинаем идти по списку тестов циклом TDD: #text(fill: red)[RED]-#text(fill: green)[GREEN]-#text(fill: yellow)[REFACTOR]
-          3. TDD Laws
-
-          - Тестами задаём спеку для LLM
-          - Маленькие куски для ревью
-
-          ????????
-        ]
-      ])
-    ],
-  )
-
   #slide(
     [Будьте как Дима],
     [

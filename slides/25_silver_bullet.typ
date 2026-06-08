@@ -5,6 +5,8 @@
   [Чистый код, всё работает, отличная архитектура, волосы будут длинные и шелковистые?],
 )
 
+#include "progressives/what_tdd_does.typ"
+
 #progressive-slide(
   [Что TDD НЕ делает],
   (
