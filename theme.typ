@@ -148,24 +148,3 @@
 )
 
 #let quote-line(body) = text(size: 20pt, weight: "bold", fill: accent-2)[#body]
-
-#let slide-two-cols(title, col-left, col-right, kicker: none) = touying-slide-wrapper(self => {
-  touying-slide(
-    self: self,
-    [
-      #bar(accent)
-      #v(0.22in)
-      #if kicker != none [
-        #label-chip(kicker)
-        #v(0.15in)
-      ]
-      #text(size: 25pt, weight: "bold", fill: text-main)[#title]
-      #v(0.22in)
-      #grid(columns: (1fr, 1fr), gutter: 0.28in, col-left, col-right)
-      #v(1fr)
-      #align(right)[
-        #text(size: 12pt, fill: text-soft)[#context counter(page).display()]
-      ]
-    ],
-  )
-})
