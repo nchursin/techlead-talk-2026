@@ -60,11 +60,10 @@
       ]
       #text(size: 25pt, weight: "bold", fill: text-main)[#title]
       #v(0.22in)
-      #body
-      #v(1fr)
-      #align(right)[
+      #place(bottom + right)[
         #text(size: 12pt, fill: text-soft)[#context counter(page).display()]
       ]
+      #body
     ],
   )
 })
@@ -79,11 +78,10 @@
       #v(0.15in)
       #text(size: 25pt, weight: "bold", fill: yellow)[#title]
       #v(0.22in)
-      #body
-      #v(1fr)
-      #align(right)[
+      #place(bottom + right)[
         #text(size: 12pt, fill: text-soft)[#context counter(page).display()]
       ]
+      #body
     ],
   )
 })
