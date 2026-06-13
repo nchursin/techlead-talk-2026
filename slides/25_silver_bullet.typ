@@ -87,3 +87,37 @@
     )
   ],
 )
+
+
+#slide(
+  [Логика],
+  [
+    #card([
+      Agile:
+
+      #text(size: 30pt, weight: "bold", fill: green)[|]
+      Получай обратную связь часто
+      #pause
+
+      Scrum/XP:
+
+      #text(size: 30pt, weight: "bold", fill: green)[|]
+      Получай обратную связь каждую итерацию.
+      #pause
+
+      CI:
+
+      #text(size: 30pt, weight: "bold", fill: green)[|]
+      Получай обратную связь после каждого коммита.
+      #pause
+
+      TDD:
+
+      #text(size: 30pt, weight: "bold", fill: green)[|]
+      Получай обратную связь после #text(weight: "bold", fill: green)[ каждой строчки кода ]
+    ])
+  ],
+)
+
+
+
