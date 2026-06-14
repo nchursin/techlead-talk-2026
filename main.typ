@@ -2,6 +2,11 @@
 
 #show: with-theme
 
+#hero(
+  [Разрушители мифов: TDD],
+  [Что такое TDD на самом деле и зачем оно в 2к26],
+)
+
 #include "slides/00_intro.typ"
 #include "slides/01_story_myth.typ"
 #include "slides/02_first_myth.typ"

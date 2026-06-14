@@ -33,61 +33,39 @@
   [Неочевидные последствия практики],
   [
     #three-cols(
-      [],
-      [],
-      [],
-    )
-  ],
-)
-
-#slide(
-  [Неочевидные последствия практики],
-  [
-    #three-cols(
       // #text(size: 20pt, weight: "bold", fill: green)[GREEN]
-      [#card([#text(size: 20pt, weight: "bold", fill: yellow)[ОЦЕНКИ]
-        #v(0.12in)
-        Тесты начинают считаться частью задачи, а не хвостом после задачи.])],
-      [],
-      [],
+
+      [
+        #pause
+        #card([#text(size: 20pt, weight: "bold", fill: yellow)[ОЦЕНКИ]
+          #v(0.12in)
+          Тесты начинают считаться частью задачи, а не хвостом после задачи.])
+      ],
+      [
+        #pause
+        #card([#text(size: 20pt, weight: "bold", fill: green)[ОТЛАДКА]
+          #v(0.12in)
+          Ошибки ловятся в коротком цикле, а не после длинной ручной отладки.])
+      ],
+      [
+        #pause
+        #card([#text(size: 20pt, weight: "bold", fill: red)[РИСК]
+          #v(0.12in)
+          Если идёшь не туда, теряешь минуты, а не несколько дней.])
+      ],
     )
   ],
 )
 
-#slide(
-  [Неочевидные последствия практики],
-  [
-    #three-cols(
-      // #text(size: 20pt, weight: "bold", fill: green)[GREEN]
-      [#card([#text(size: 20pt, weight: "bold", fill: yellow)[ОЦЕНКИ]
-        #v(0.12in)
-        Тесты начинают считаться частью задачи, а не хвостом после задачи.])],
-      [#card([#text(size: 20pt, weight: "bold", fill: green)[ОТЛАДКА]
-        #v(0.12in)
-        Ошибки ловятся в коротком цикле, а не после длинной ручной отладки.])],
-      [],
-    )
-  ],
+#objection(
+  [TDD - это про тесты],
+  [],
 )
 
-#slide(
-  [Неочевидные последствия практики],
-  [
-    #three-cols(
-      // #text(size: 20pt, weight: "bold", fill: green)[GREEN]
-      [#card([#text(size: 20pt, weight: "bold", fill: yellow)[ОЦЕНКИ]
-        #v(0.12in)
-        Тесты начинают считаться частью задачи, а не хвостом после задачи.])],
-      [#card([#text(size: 20pt, weight: "bold", fill: green)[ОТЛАДКА]
-        #v(0.12in)
-        Ошибки ловятся в коротком цикле, а не после длинной ручной отладки.])],
-      [#card([#text(size: 20pt, weight: "bold", fill: red)[РИСК]
-        #v(0.12in)
-        Если идёшь не туда, теряешь минуты, а не несколько дней.])],
-    )
-  ],
+#thesis(
+  [TDD - это про управление неопределённостью и рисками],
+  [],
 )
-
 
 #slide(
   [Логика],
@@ -114,7 +92,7 @@
       TDD:
 
       #text(size: 30pt, weight: "bold", fill: green)[|]
-      Получай обратную связь после #text(weight: "bold", fill: green)[ каждой строчки кода ]
+      Получай обратную связь после #text(weight: "bold", fill: green)[каждой строчки кода]
     ])
   ],
 )
