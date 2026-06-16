@@ -2,9 +2,15 @@
 
 #show: with-theme
 
+#touying-slide-wrapper(self => {
+  touying-slide(self: self, [
+    #place(top + left, dx: -0.55in, dy: -0.55in, image("assets/teamlead_slide_01.png", width: 13.333in, height: 7.5in))
+  ])
+})
+
 #hero(
-  [Разрушители мифов: TDD],
-  [Что такое TDD на самом деле и зачем оно в 2к26],
+  [Что такое TDD - мифы и реальность],
+  [И зачем оно в 2к26],
 )
 
 #include "slides/00_intro.typ"
@@ -27,3 +33,9 @@
     ])
   ],
 )
+
+#touying-slide-wrapper(self => {
+  touying-slide(self: self, [
+    #place(top + left, dx: -0.55in, dy: -0.55in, image("assets/teamlead_slide_13.png", width: 13.333in, height: 7.5in))
+  ])
+})
