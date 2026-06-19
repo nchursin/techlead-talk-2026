@@ -34,7 +34,7 @@
               - Провожу код-ритриты и инженерные тренинги
               - Член программного комитета DUMP и TechLead Conf
               #v(0.14in)
-              #text(size: 15pt, fill: text-soft)[Похудел на 10 кг по сравнению с фоткой.]
+              #text(size: 15pt, fill: text-soft)[А ещё вожу Mausritter — настольную ролевуху про мышей!]
             ],
             inset-size: 16pt,
           )
