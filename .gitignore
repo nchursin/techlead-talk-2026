@@ -1,2 +1,5 @@
 presentation.pdf
 out.pdf
+
+.venv
+.DS_Store
