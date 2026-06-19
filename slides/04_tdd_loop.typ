@@ -1,5 +1,5 @@
 #import "../theme.typ": *
-#import "@preview/fletcher:0.5.8": diagram, node, edge
+#import "@preview/fletcher:0.5.8": diagram, edge, node
 
 #objection(
   [И как ты представляешь, чтобы я сел и продумал все тесты?],
@@ -134,8 +134,7 @@
             columns: (auto, 1.6in),
             column-gutter: 0.1in,
             align: center + horizon,
-            text(size: 26pt, fill: text-soft)[→],
-            d3,
+            text(size: 26pt, fill: text-soft)[→], d3,
           )
         ],
 
@@ -146,8 +145,7 @@
             columns: (auto, 1.6in),
             column-gutter: 0.1in,
             align: center + horizon,
-            text(size: 26pt, fill: text-soft)[→],
-            d3,
+            text(size: 26pt, fill: text-soft)[→], d3,
           )
         ],
 
@@ -160,7 +158,7 @@
             align: center + horizon,
             text(size: 26pt, fill: text-soft)[→],
             card(
-              align(center)[#text(size: 15pt)[чистый код,\ который работает]],
+              align(center)[#text(size: 15pt)[Чистый код,\ который работает.]],
               fill-color: panel-soft,
             ),
           )
@@ -171,16 +169,9 @@
   kicker: [Миф: TDD — значит написать ВСЕ тесты заранее],
 )
 
-#slide(
-  [Show me the code],
-  [
-    #card([
-      #text(size: 20pt)[
-        DEMO
-      ]
-    ])
-  ],
-  kicker: [Миф: TDD — значит написать ВСЕ тесты заранее],
+#thesis(
+  [Посмотрим на примере!],
+  [Да, я прям кодить буду!],
 )
 
 #slide(
@@ -189,7 +180,7 @@
     #card([
       // TODO: Возможо, удалить слайд
       #text(size: 20pt)[
-          #pause
+        #pause
         - Разработка состоит из маленьких циклов TDD
           #pause
         - Супер-короткая петля обратной связи
