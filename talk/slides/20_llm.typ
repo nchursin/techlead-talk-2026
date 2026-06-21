@@ -1,4 +1,4 @@
-#import "../theme.typ": *
+#import "../../theme.typ": *
 
 #slide(
   [Что мы уже узнали о TDD],

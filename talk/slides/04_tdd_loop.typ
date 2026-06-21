@@ -1,4 +1,4 @@
-#import "../theme.typ": *
+#import "../../theme.typ": *
 #import "@preview/fletcher:0.5.8": diagram, edge, node
 
 #objection(

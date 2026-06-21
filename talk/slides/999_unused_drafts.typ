@@ -1,4 +1,4 @@
-#import "../theme.typ": *
+#import "../../theme.typ": *
 
 #objection(
   [С TDD тесты хрупкие — разваливаются при каждом рефакторинге],

@@ -1,10 +1,10 @@
 default: build open
 
-watch:
-	typst watch main.typ presentation.pdf
+watch-talk:
+	typst watch --root . talk/main.typ presentation.pdf
 
 build:
-	typst compile main.typ presentation.pdf
+	typst compile --root . talk/main.typ presentation.pdf
 
 open:
 	open presentation.pdf

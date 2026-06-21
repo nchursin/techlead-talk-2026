@@ -1,4 +1,4 @@
-#import "theme.typ": *
+#import "../theme.typ": *
 
 #show: with-theme
 
