@@ -104,11 +104,11 @@
       ],
       [
         #pause
-        #org-icon[😊]
+        #org-icon[✋]
         #v(0.3in)
         #set text(size: 20pt, weight: "bold")
-        Правило \
-        Ивана Дорна
+        Чтобы задать вопрос \
+        поднимите руку
       ],
       [
         #pause
