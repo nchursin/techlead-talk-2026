@@ -79,7 +79,7 @@
       width: 1.1in,
       height: 1.1in,
     )[
-      #align(center + horizon)[
+      #place(center + horizon, dy: -0.05in)[
         #text(size: 40pt, top-edge: "bounds", bottom-edge: "bounds")[#body]
       ]
     ]
