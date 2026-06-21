@@ -90,6 +90,7 @@
       gutter: 0.2in,
       align: center,
       [
+        #pause
         #org-icon[⏱]
         #v(0.3in)
         #set text(size: 20pt, weight: "bold")
@@ -97,6 +98,7 @@
         Перерыв будет!
       ],
       [
+        #pause
         #org-icon[😊]
         #v(0.3in)
         #set text(size: 20pt, weight: "bold")
@@ -104,6 +106,7 @@
         Ивана Дорна
       ],
       [
+        #pause
         #org-icon[📝]
         #v(0.3in)
         #set text(size: 20pt, weight: "bold")
@@ -112,14 +115,15 @@
         моменты
       ],
       [
+        #pause
         #org-icon[
           #image("../assets/dino.png", width: 1.0in)
         ]
         #v(0.3in)
         #set text(size: 20pt, weight: "bold")
         Презентацию \
-        дам, запись я \
-        не дам
+        я дам, запись \
+        я не дам
       ],
     )
   ],
