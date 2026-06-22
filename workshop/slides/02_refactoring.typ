@@ -1,5 +1,4 @@
 #import "../../theme.typ": *
-#import "@preview/fletcher:0.5.8": diagram, edge, node
 
 #slide(
   [Как выглядит разработка через тесты],
