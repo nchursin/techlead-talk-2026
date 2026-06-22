@@ -16,7 +16,7 @@
 
 #include "slides/00_intro.typ"
 #include "slides/01_getting_started.typ"
-#include "slides/02_tdd_loop.typ"
+// #include "slides/02_tdd_loop.typ"
 
 #touying-slide-wrapper(self => {
   touying-slide(self: self, [
