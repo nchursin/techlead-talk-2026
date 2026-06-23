@@ -133,6 +133,21 @@
   )
 })
 
+#let question(title, subtitle) = touying-slide-wrapper(self => {
+  touying-slide(
+    self: self,
+    [
+      #bar(yellow, width: 2.8in)
+      #v(0.3in)
+      #text(size: 60pt, weight: "bold", fill: yellow)[?]
+      #v(-0.15in)
+      #text(size: 32pt, weight: "bold", fill: text-main)[#title]
+      #v(0.16in)
+      #text(size: 18pt, fill: text-soft)[#subtitle]
+    ],
+  )
+})
+
 #let two-cols(left, right) = grid(
   columns: (1fr, 1fr),
   gutter: 0.28in,

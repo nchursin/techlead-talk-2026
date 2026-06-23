@@ -17,6 +17,8 @@
 #include "slides/00_intro.typ"
 #include "slides/01_getting_started.typ"
 #include "slides/02_refactoring.typ"
+#include "slides/03_llm.typ"
+#include "slides/04_debrief.typ"
 
 #touying-slide-wrapper(self => {
   touying-slide(self: self, [
