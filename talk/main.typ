@@ -41,11 +41,14 @@
     #place(top + left, dx: -0.149in, dy: 0.077in, block(width: 8.821in)[
       #text(size: 48pt, weight: "bold", fill: white)[Завтра продолжим!]
     ])
-    #place(top + left, dx: -0.149in, dy: 2.077in, block(width: 8.821in)[
+    #place(top + left, dx: -0.149in, dy: 1.777in, block(width: 8.821in)[
       #text(size: 30pt, weight: "bold", fill: white)[Будь как Дима, приходи на воркшоп.]
     ])
-    #place(top + left, dx: -0.149in, dy: 3.623in, block(width: 8.821in)[
+    #place(top + left, dx: -0.149in, dy: 3.023in, block(width: 8.821in)[
       #text(size: 24pt, fill: white)[На практике посмотрим, как работает TDD — пройдёмся руками, а потом с LLM.]
     ])
+    #place(top + left, dx: 9.1in, dy: 0.1in, image("assets/qr.png", width: 2.5in))
+    #place(bottom + left, dx: 0.15in, dy: -0.2in, image("assets/channel-qr.jpeg", width: 2.0in))
+    // #place(bottom + left, dx: 0.15in, dy: 0.2in, image("assets/channel-qr.jpeg", width: 2.0in))
   ])
 })

@@ -26,5 +26,7 @@
     #place(top + left, dx: -0.149in, dy: 2.077in, block(width: 8.821in)[
       #text(size: 48pt, weight: "bold", fill: white)[Чистого кода, который работает!]
     ])
+    #place(top + left, dx: 9.1in, dy: 0.1in, image("assets/qr.png", width: 2.5in))
+    #place(bottom + left, dx: 0.15in, dy: -0.2in, image("assets/channel-qr.jpeg", width: 2.0in))
   ])
 })
