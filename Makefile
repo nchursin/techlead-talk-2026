@@ -11,8 +11,8 @@ watch-workshop:
 
 build: clean
 	mkdir dist/
-	typst compile --root . talk/main.typ dist/talk.pdf
-	typst compile --root . workshop/main.typ dist/workshop.pdf
+	typst compile --root . talk/main.typ "dist/Что такое TDD — мифы и реальность.pdf"
+	typst compile --root . workshop/main.typ "dist/Воркшоп «Разработка без страха — через тестирование».pdf"
 
 open:
 	open presentation.pdf
