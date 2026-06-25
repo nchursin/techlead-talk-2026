@@ -26,9 +26,14 @@
   [Тесты после кода работают хуже],
   [
     #card([
-      - Работа уже выглядит сделанной, а о будущем не думаем
-      - «Сюда никогда не передадут nil»
-      - Мы любим свой код и не хотим его ломать
+      #text(size: 20pt)[
+        #pause
+        - Работа уже выглядит сделанной, а о будущем не думаем
+        #pause
+        - «Сюда никогда не передадут nil»
+        #pause
+        - Мы любим свой код и не хотим его ломать
+      ]
     ])
   ],
 )
@@ -98,24 +103,33 @@
   [TDD: красный-зелёный-рефакторинг],
   [
     #three-cols(
-      [#card(
-        [#text(size: 20pt, weight: "bold", fill: red)[RED]
-          #v(0.12in)
-          Сначала пишем падающий тест.],
-        fill-color: panel-soft,
-      )],
-      [#card(
-        [#text(size: 20pt, weight: "bold", fill: green)[GREEN]
-          #v(0.12in)
-          Дальше делаем его зелёным так быстро, как можем.],
-        fill-color: panel-soft,
-      )],
-      [#card(
-        [#text(size: 20pt, weight: "bold", fill: yellow)[REFACTOR]
-          #v(0.12in)
-          Потом чистим дизайн под страховкой тестов.],
-        fill-color: panel-soft,
-      )],
+      [
+        #pause
+        #card(
+          [#text(size: 20pt, weight: "bold", fill: red)[RED]
+            #v(0.12in)
+            Сначала пишем падающий тест.],
+          fill-color: panel-soft,
+        )
+      ],
+      [
+        #pause
+        #card(
+          [#text(size: 20pt, weight: "bold", fill: green)[GREEN]
+            #v(0.12in)
+            Дальше делаем его зелёным так быстро, как можем.],
+          fill-color: panel-soft,
+        )
+      ],
+      [
+        #pause
+        #card(
+          [#text(size: 20pt, weight: "bold", fill: yellow)[REFACTOR]
+            #v(0.12in)
+            Потом чистим дизайн под страховкой тестов.],
+          fill-color: panel-soft,
+        )
+      ],
     )
   ],
 )
@@ -296,6 +310,7 @@
       [#card([
         #text(size: 16pt)[
           - 2 роли: драйвер и навигатор
+          // TODO: драйвер тактика, навигатор стратегия
           #pause
           - Драйвер пишет код — управляет клавиатурой
           #pause
