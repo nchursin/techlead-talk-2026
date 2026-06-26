@@ -134,7 +134,7 @@
 )
 
 #slide(
-  [После #text(fill: green)[рефакторинга]],
+  [После #text(fill: yellow)[рефакторинга]],
   [
     #card([
       #text(size: 20pt)[

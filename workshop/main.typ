@@ -27,6 +27,14 @@
       #text(size: 48pt, weight: "bold", fill: white)[Чистого кода, который работает!]
     ])
     #place(top + left, dx: 9.1in, dy: 0.1in, image("assets/qr.png", width: 2.5in))
+    #place(top + left, dx: 5.6in, dy: 0.75in, text(size: 24pt, weight: "regular", fill: white)[Оцени доклад])
+    #place(top + left, dx: 8.0in, dy: 0.5in, text(size: 60pt, weight: "extrabold", fill: green)[→])
     #place(bottom + left, dx: 0.15in, dy: -0.2in, image("assets/channel-qr.jpeg", width: 2.0in))
+    #place(bottom + left, dx: 3.35in, dy: -0.8in, text(
+      size: 24pt,
+      weight: "regular",
+      fill: white,
+    )[Подпишись на канал])
+    #place(bottom + left, dx: 2.35in, dy: -0.7in, text(size: 60pt, weight: "extrabold", fill: green)[←])
   ])
 })
